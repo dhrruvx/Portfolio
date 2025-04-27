@@ -56,7 +56,7 @@ const Hero = () => {
           className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600"
           variants={itemVariants}
         >
-          Hi, I'm <span className="text-blue-400">Dhruv Bhutra</span>
+          Hi, I&apos;m <span className="text-blue-400">Dhruv Bhutra</span>
         </motion.h1>
 
         <motion.h2

@@ -6,13 +6,9 @@ import { motion } from "framer-motion";
 
 export const MovingBorder = ({
   children,
-  duration = 2000,
-  rx = "100%",
   className,
 }: {
   children: React.ReactNode;
-  duration?: number;
-  rx?: string;
   className?: string;
 }) => {
   return (

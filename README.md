@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features smooth animations, interactive UI elements, and a clean, professional design.
 
+🔗 [View Repository](https://github.com/dhrruvx/Portfolio.git)
+
 ## 🎯 Features
 
 - **Modern UI Elements**:
@@ -55,8 +57,8 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 1. Clone the repository
 ```bash
-git clone https://github.com/dhrruvx/portfolio.git
-cd portfolio
+git clone https://github.com/dhrruvx/Portfolio.git
+cd Portfolio
 ```
 
 2. Install dependencies

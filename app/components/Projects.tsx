@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { MovingBorder } from './ui/moving-border';
+// import { MovingBorder } from './ui/moving-border';
 import { Sparkles } from './ui/sparkles';
 import { CardSpotlight } from './ui/card-spotlight';
 

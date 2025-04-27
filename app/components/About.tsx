@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { Card3D } from './ui/3d-card';
-import { MovingBorder } from './ui/moving-border';
 import { Sparkles } from './ui/sparkles';
 
 const About = () => {

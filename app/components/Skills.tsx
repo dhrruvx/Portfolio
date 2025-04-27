@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { Card3D } from './ui/3d-card';
-import { MovingBorder } from './ui/moving-border';
 import { Sparkles } from './ui/sparkles';
 
 const Skills = () => {
@@ -112,7 +111,7 @@ const Skills = () => {
                     <div className="w-full h-2 bg-black/30 rounded-full overflow-hidden backdrop-blur-sm">
                       <motion.div
                         className="h-full bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"
-                        style={{ '--width': `${skill.level}%` } as any}
+                        style={{ '--width': `${skill.level}%` } as { [key: string]: string }}
                         variants={skillVariants}
                       />
                     </div>
