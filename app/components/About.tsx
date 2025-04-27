@@ -59,29 +59,41 @@ const About = () => {
             </div>
           </motion.div>
           
-          <div className="grid grid-cols-2 gap-6">
-            <Card3D className="backdrop-blur-lg bg-black/10 rounded-lg border border-white/10 hover:border-blue-500/50 transition-all duration-300">
-              <div className="p-6">
-                <h3 className="font-bold text-xl text-blue-400 mb-2">Education</h3>
-                <p className="text-gray-300 font-semibold">B.Tech CSE</p>
-                <p className="text-gray-400">SMIT, Sikkim</p>
-                <p className="text-blue-400 text-sm mt-1">CGPA: 8.84</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
+            <Card3D className="backdrop-blur-lg bg-black/10 rounded-lg border border-white/10 hover:border-blue-500/50 transition-all duration-300 h-full">
+              <div className="p-4 sm:p-6 flex flex-col h-full">
+                <h3 className="font-bold text-lg sm:text-xl text-blue-400 mb-4">Education</h3>
+                <div className="space-y-2">
+                  <p className="text-gray-300 font-semibold text-sm sm:text-base">B.Tech CSE</p>
+                  <p className="text-gray-400 text-sm sm:text-base">SMIT, Sikkim</p>
+                  <p className="text-blue-400 text-xs sm:text-sm mt-2">CGPA: 8.84</p>
+                </div>
               </div>
             </Card3D>
-            <Card3D className="backdrop-blur-lg bg-black/10 rounded-lg border border-white/10 hover:border-blue-500/50 transition-all duration-300">
-              <div className="p-6">
-                <h3 className="font-bold text-xl text-blue-400 mb-2">Languages</h3>
-                <p className="text-gray-300">Hindi</p>
-                <p className="text-gray-300">English</p>
-                <p className="text-gray-300">Bengali</p>
+            <Card3D className="backdrop-blur-lg bg-black/10 rounded-lg border border-white/10 hover:border-blue-500/50 transition-all duration-300 h-full">
+              <div className="p-4 sm:p-6 flex flex-col h-full">
+                <h3 className="font-bold text-lg sm:text-xl text-blue-400 mb-4">Languages</h3>
+                <div className="space-y-2">
+                  <p className="text-gray-300 text-sm sm:text-base">Hindi</p>
+                  <p className="text-gray-300 text-sm sm:text-base">English</p>
+                  <p className="text-gray-300 text-sm sm:text-base">Bengali</p>
+                </div>
               </div>
             </Card3D>
-            <Card3D className="backdrop-blur-lg bg-black/10 rounded-lg border border-white/10 hover:border-blue-500/50 transition-all duration-300">
-              <div className="p-6">
-                <h3 className="font-bold text-xl text-blue-400 mb-2">Certifications</h3>
-                <p className="text-gray-300 text-sm">Google Data Analytics</p>
-                <p className="text-gray-300 text-sm">IBM Python for DS & AI</p>
-                <p className="text-gray-300 text-sm">IBM SQL & Databases</p>
+            <Card3D className="backdrop-blur-lg bg-black/10 rounded-lg border border-white/10 hover:border-blue-500/50 transition-all duration-300 md:col-span-1 sm:col-span-2 lg:col-span-2 h-full">
+              <div className="p-4 sm:p-6 flex flex-col h-full">
+                <h3 className="font-bold text-lg sm:text-xl text-blue-400 mb-4">Certifications</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <div className="p-2 rounded-lg bg-black/20 backdrop-blur-sm">
+                    <p className="text-gray-300 text-xs sm:text-sm">Google Data Analytics</p>
+                  </div>
+                  <div className="p-2 rounded-lg bg-black/20 backdrop-blur-sm">
+                    <p className="text-gray-300 text-xs sm:text-sm">IBM Python for DS & AI</p>
+                  </div>
+                  <div className="p-2 rounded-lg bg-black/20 backdrop-blur-sm">
+                    <p className="text-gray-300 text-xs sm:text-sm">IBM SQL & Databases</p>
+                  </div>
+                </div>
               </div>
             </Card3D>
           </div>

@@ -23,8 +23,9 @@ export const Card3D = ({
     const height = rect.height;
     const mouseX = e.clientX - rect.left;
     const mouseY = e.clientY - rect.top;
-    const rotationY = ((mouseX - width / 2) / width) * 20;
-    const rotationX = ((mouseY - height / 2) / height) * -20;
+    const maxSize = Math.max(width, height);
+    const rotationY = ((mouseX - width / 2) / maxSize) * 15;
+    const rotationX = ((mouseY - height / 2) / maxSize) * -15;
 
     setRotation({ x: rotationX, y: rotationY });
   };
