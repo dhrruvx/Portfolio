@@ -43,12 +43,12 @@ const Contact = () => {
 
       const url = `${scriptUrl}?${formDataEncoded}`;
       
-      const response = await fetch(url, {
+      await fetch(url, {
         method: 'GET',
         mode: 'no-cors',
       });
 
-      // Since we're using no-cors, assume success if we get here
+      // Assume success if we get here
       setSubmitStatus({
         type: 'success',
         message: 'Thank you for your message! I will get back to you soon.',
